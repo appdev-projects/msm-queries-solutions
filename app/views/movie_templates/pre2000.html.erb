@@ -1,0 +1,10 @@
+<h1>Films from before 2000</h1>
+
+<ul>
+  <% @older_movies.each do |film| %>
+    <li>
+      <%= film.title %>
+      (<%= film.year %>)
+    </li>
+  <% end %>
+</ul>

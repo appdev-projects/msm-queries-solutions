@@ -1,0 +1,7 @@
+image: jelaniwoods/appdev2020-photogram-queries
+
+tasks:
+  - init: bin/setup
+ports:
+  - port: 3000
+    onOpen: open-preview
